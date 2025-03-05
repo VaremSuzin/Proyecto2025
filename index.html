@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi documento</title>
+    <link rel="stylesheet" href="./CSS/Styles.css">
 </head>
 <body>
-    <h1>Mi formulario</h1>
+    <h1>Mi página HTML</h1>
+    <h2>Margin y Padding</h2>
+    <div class="contenedor">Esta clase es de CSS</div>
+    <div class="contenedor"></div>
+    <div class="contenedor"></div>
+    <div class="contenedor"></div>
+
+    <span>
+        Este es un formulario HTML
+    </span>
 
     <form action="#" method="post">
         <label for="nombre"> Nombre: </label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" required>
+        <label for="correo">E-mail:</label>
+        <input type="email" name="correo" id="correo" required        
+        <label for="pass">Password</label>
+        <input type="text" name="pass" id="pass">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="10">
+        <label for="date">Fecha:</label>
+        <input type="date" name="date" id="date">
+        <label for="terminos">Acepto terminos y condiciones</label>
+        <input type="checkbox" name="terminos" id="terminos">
+        <input type="hidden" name="identificador" id="value"
+        
+        >
+        <input type="reset" value="Borrar Información">
         <input type="submit" value="Enviar Datos">
     </form>
 </body>
