@@ -8,27 +8,42 @@
        body{
         background-color: cyan;
         border: 5px solid red;
-        padding:10px;
+        padding:1.5rem;
+        display: flex;
+        flex-direction: column;
        } 
 
        h1{
         color:grey;
        }
 
+       .contenedor{
+        display: flex;
+        border: 3px solid black;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       }
+
        .caja{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         background-color: greenyellow;
         margin-bottom: 20px;
         padding: 10px;
+        text-align: center;
        }
     </style>
 </head>
 <body>
     <h1>Página de los alumnos del 2651</h1>
     <p>Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-    <div class="caja"></div>
-    <div class="caja"></div>
-    <div class="caja"></div>
+    <div class="contenedor">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+    </div>
 </body>
 </html>
